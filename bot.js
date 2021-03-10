@@ -20,22 +20,6 @@
             */
             msg.reply("自檢完畢");
         }
-        if(msg.content.includes("remix")){//整人
-            msg.channel.send('已儲存音檔') ;
-            msg.reply("物件=" + {Files:["./picture/1001.png"]}) ;
-            msg.reply("檔案已完全發送至雲端，是否確認執行REMIX ？") ;
-            /*
-            自檢區
-            */
-            msg.reply("自檢完畢");
-        }
-        if(msg.content.includes("tb.yes.boost")){//整人
-            msg.channel.send('確認完畢，REMIN將調度所有顯卡，預估 9 小時後完成') ;
-            /*
-            自檢區
-            */
-            msg.reply("自檢完畢");
-        }
         //-----------------------------------------猜拳
         if(msg.content.includes( "剪刀" )){
             if(msg.author.bot){
